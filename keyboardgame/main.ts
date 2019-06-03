@@ -4,9 +4,11 @@ import { scan, startWith, map, takeWhile, switchMap,tap } from 'rxjs/operators';
 import { State, Letter, Letters } from './interfaces';
 
 const randomLetter = () =>
-    String.fromCharCode(
+String.fromCharCode(
         Math.random() * ('z'.charCodeAt(0) - 'a'.charCodeAt(0)) + 'a'.charCodeAt(0)
     );
+
+
 const levelChangeThreshold = 20;
 const speedAdjust = 50;
 const endThreshold = 15;

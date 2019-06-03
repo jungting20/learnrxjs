@@ -5,7 +5,7 @@ export interface Letter {
 export interface Letters {
     ltrs: Letter[];
     intrvl: number;
-  }
+}
 export interface State {
     score: number;
     letters: Letter[];

@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './lazyimage/main.ts',
+  entry: './keyboardgame/main.ts',
   devtool: 'inline-source-map',
   module: {
     rules: [
@@ -13,7 +13,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase:"./learnrxjs",
+    contentBase:"./keyboardgame",
   },
   
   resolve: {

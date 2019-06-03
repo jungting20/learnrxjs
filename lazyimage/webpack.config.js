@@ -13,7 +13,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase:"./learnrxjs",
+    contentBase:"./lazyimage/",
   },
   
   resolve: {
